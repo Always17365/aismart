@@ -1,0 +1,5 @@
+This directory contains files relative tensorflow.
+1)*.pb. top protobuf: GraphDef
+2)*.ckpt.meta. top protobuf: MetaGraphDef
+
+This directory doesn't overload any directory locate at <res>/data/core.

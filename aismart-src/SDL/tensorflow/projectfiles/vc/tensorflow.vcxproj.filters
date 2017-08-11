@@ -1,0 +1,1150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{9afd3b3d-d963-4a3c-9c80-dada4065cac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common_runtime">
+      <UniqueIdentifier>3C11CE9A-D0DE-4C42-A8AB-6E25FBC9F207</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>7B671A6C-DB10-40CA-8871-F50ED97A1EDB</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graph">
+      <UniqueIdentifier>DA8C4C49-9A3F-4471-ABEC-F72BEB58F40B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler">
+      <UniqueIdentifier>7A88253A-50CF-4C69-A9AC-B0C01347012B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler\clusters">
+      <UniqueIdentifier>F503B8FB-1CF2-4AB4-9A1B-7A5B00742CDB</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler\costs">
+      <UniqueIdentifier>C8544E9A-366D-4AFA-8597-4187FE239A06</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler\inputs">
+      <UniqueIdentifier>F94DDA2B-F613-43F7-86DA-E2687D1FE32B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler\optimizers">
+      <UniqueIdentifier>23897C85-62A1-4C69-9D83-68F32D4BC7E2</UniqueIdentifier>
+    </Filter>
+    <Filter Include="grappler\utils">
+      <UniqueIdentifier>C2D3E692-9B25-4B76-AAB9-92D4BE73292A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernels">
+      <UniqueIdentifier>E77F6181-120A-410D-85F8-0AD9CD9A0AF7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>C850ABF3-EC39-4FA3-BC68-85D42BE57A7B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\core">
+      <UniqueIdentifier>606012DF-631B-4D23-A519-F8D2674F4B47</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\hash">
+      <UniqueIdentifier>961D26FA-A6E7-47C2-8AE4-32C207172386</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\histogram">
+      <UniqueIdentifier>E38D17F6-CDAA-46F9-8070-D2DE841153E2</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\io">
+      <UniqueIdentifier>0DFF3A75-F46E-4D5F-B295-592DF14EB293</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\monitoring">
+      <UniqueIdentifier>55EF5DBB-4C4B-4C31-AF1B-AED09E638FEC</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\random">
+      <UniqueIdentifier>CED80D63-A60A-4515-840E-75A221E20E70</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\strings">
+      <UniqueIdentifier>CFA6D21E-2360-4670-91A2-D986F54DE6A5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\wav">
+      <UniqueIdentifier>B7E35C09-97E7-4CCC-99CB-7371232643E5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ops">
+      <UniqueIdentifier>AF726F50-C99E-4945-BAD7-96F5F00BB96E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>62FC3233-2D54-4635-A792-F90BFE0BF560</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\default">
+      <UniqueIdentifier>DE91ACB0-FD70-4C63-8009-1248C9B28ACF</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\posix">
+      <UniqueIdentifier>11F2E057-5167-450E-AF7F-5D32E8840B5E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows">
+      <UniqueIdentifier>7A3D9EA7-2734-46C0-AC00-F99670351383</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>D178DBB5-2A76-41A2-B6DF-C428180E27D9</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\ctc">
+      <UniqueIdentifier>5012E8E3-A427-47ED-A7AF-D5B900BA9C0E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\sparse">
+      <UniqueIdentifier>F6DC8AA0-9A90-4948-822D-2F5C918213E3</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\tensor_bundle">
+      <UniqueIdentifier>9FE95030-6592-4F4D-980D-61B748AFE5C1</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\meta_graph.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\allocator_retry.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\build_graph_options.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\constant_folding.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\copy_tensor.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\costmodel_manager.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\debugger_state_interface.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_factory.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_mgr.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_set.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\direct_session.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\executor.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\function.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\graph_optimizer.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\graph_runner.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\local_device.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\memory_types.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\optimization_registry.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\parallel_concat_optimizer.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\process_function_library_runtime.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\process_util.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\renamed_device.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\rendezvous_mgr.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\resource_variable_read_optimizer.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_factory.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_options.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_state.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\shape_refiner.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\simple_graph_execution_state.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\simple_placer.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\stats_publisher_interface.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\step_stats_collector.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\threadpool_device.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\threadpool_device_factory.cc">
+      <Filter>common_runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocation_description.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocation_description.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocator.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocator_registry.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value_util.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\bfloat16.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cancellation.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\common_shape_fns.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cost_graph.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cost_graph.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_attributes.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_attributes.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_base.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\fake_input.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_def_util.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_transfer_info.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_transfer_info.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def_builder.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\load_library.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\lookup_interface.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\memory_types.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def_builder.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def_util.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def_builder.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def_util.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_kernel.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_segment.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\reader_base.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\reader_base.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\remote_fused_graph_execute_info.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\remote_fused_graph_execute_info.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\rendezvous.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_mgr.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\shape_inference.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\step_stats.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\step_stats.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\summary.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\summary.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_description.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_description.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_reference.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_util.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tracking_allocator.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\unique_tensor_references.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variable.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variant.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variant_tensor_data.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.pb.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.pb_text.cc">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\algorithm.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\colors.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\control_flow.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\costmodel.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\edgeset.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\gradients.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_constructor.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_def_builder.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_partition.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\mkl_layout_pass.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\mkl_tfconversion_pass.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\node_builder.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\optimizer_cse.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\quantize_training.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\subgraph.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\tensor_id.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\validate.cc">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\devices.cc">
+      <Filter>grappler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\grappler_item.cc">
+      <Filter>grappler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\grappler_item_builder.cc">
+      <Filter>grappler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\op_types.cc">
+      <Filter>grappler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils.cc">
+      <Filter>grappler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\avgpooling_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\bias_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_bfloat.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_bool.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_complex128.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_complex64.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_double.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_float.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_half.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int16.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int32.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int64.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int8.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_uint16.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_uint8.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\concat_lib_cpu.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\concat_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\constant_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\conv_ops.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\conv_ops_using_gemm.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_add_1.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_div.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_floor.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_mul_1.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_rsqrt.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_sub.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_ops_common.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\deep_conv2d.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\depthwise_conv_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\fifo_queue.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\fill_functor.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\function_ops.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\identity_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\lrn_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\matmul_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\maxpooling_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\no_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\ops_util.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\pack_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\padding_fifo_queue.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\padding_fifo_queue_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\pooling_ops_common.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\queue_base.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\queue_ops.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\random_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\relu_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\reshape_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\resize_bilinear_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\shape_ops.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\softmax_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\split_lib_cpu.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\split_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_0.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_1.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_2.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_3.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_4.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_5.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_6.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_7.cc">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\array_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\data_flow_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\function_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\functional_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\image_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\math_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\nn_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\no_op.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\random_ops.cc">
+      <Filter>ops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\cpu_info.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\denormal.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\env.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\env_time.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\file_system.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\protobuf_util.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\setround.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\tensor_coding.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\tracing.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\variant_coding.cc">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\cluster.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\cluster.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\config.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\config.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\debug.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\debug.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\device_properties.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\named_tensor.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\queue_runner.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\rewriter_config.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\rewriter_config.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\saver.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\saver.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensor_bundle.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensor_bundle.pb_text.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensorflow_server.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\bcast.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\command_line_flags.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\cuda_kernel_helper_test.cu.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\device_name_utils.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\env_var.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\equal_graph_def.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\event.pb.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\guarded_philox_random.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\matmul_autotune.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.pb.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.pb_text.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system_writer.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\mirror_pad_mode.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\padding.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\port.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\reporter.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice.pb.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice.pb_text.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice_util.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\stat_summarizer.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\strided_slice_op.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_format.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_reader.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_reader_cache.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_set.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_writer.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\test_log.pb.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\use_cudnn.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\util.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\work_sharder.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\cluster.cc">
+      <Filter>grappler\clusters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\utils.cc">
+      <Filter>grappler\clusters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\virtual_cluster.cc">
+      <Filter>grappler\clusters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\analytical_cost_estimator.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\graph_memory.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\graph_properties.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\measuring_cost_estimator.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\op_level_cost_estimator.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\op_performance_data.pb.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\robust_stats.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\utils.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\virtual_placer.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\virtual_scheduler.cc">
+      <Filter>grappler\costs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\inputs\utils.cc">
+      <Filter>grappler\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\auto_parallel.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\constant_folding.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\graph_rewriter.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\layout_optimizer.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\memory_optimizer.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\meta_optimizer.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\model_pruner.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\static_schedule.cc">
+      <Filter>grappler\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils\scc.cc">
+      <Filter>grappler\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils\topological_sort.cc">
+      <Filter>grappler\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\arena.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\bitmap.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\coding.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\error_codes.pb.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\error_codes.pb_text.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\status.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\stringpiece.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\threadpool.cc">
+      <Filter>lib\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\crc32c.cc">
+      <Filter>lib\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\crc32c_accelerate.cc">
+      <Filter>lib\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\hash.cc">
+      <Filter>lib\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\histogram\histogram.cc">
+      <Filter>lib\histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\block.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\block_builder.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\buffered_inputstream.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\compression.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\format.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\inputbuffer.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\inputstream_interface.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\iterator.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\path.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\random_inputstream.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\table.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\table_builder.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\two_level_iterator.cc">
+      <Filter>lib\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\monitoring\collection_registry.cc">
+      <Filter>lib\monitoring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\distribution_sampler.cc">
+      <Filter>lib\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\random.cc">
+      <Filter>lib\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\simple_philox.cc">
+      <Filter>lib\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\weighted_picker.cc">
+      <Filter>lib\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\base64.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\numbers.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\ordered_code.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\proto_text_util.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\scanner.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\str_util.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\strcat.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\stringprintf.cc">
+      <Filter>lib\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\wav\wav_io.cc">
+      <Filter>lib\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\gpu_tracer.cc">
+      <Filter>platform\default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\logging.cc">
+      <Filter>platform\default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\protobuf.cc">
+      <Filter>platform\default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\tracing.cc">
+      <Filter>platform\default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\posix\error.cc">
+      <Filter>platform\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\env.cc">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\env_time.cc">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\error.cc">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\port.cc">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\windows_file_system.cc">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\ctc\ctc_loss_calculator.cc">
+      <Filter>util\ctc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\sparse\group_iterator.cc">
+      <Filter>util\sparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_bundle\naming.cc">
+      <Filter>util\tensor_bundle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_bundle\tensor_bundle.cc">
+      <Filter>util\tensor_bundle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\meta_graph.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\allocator_retry.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\build_graph_options.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\constant_folding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\copy_tensor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\costmodel_manager.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\debugger_state_interface.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_factory.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_mgr.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\device_set.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\direct_session.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\executor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\function.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\graph_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\graph_runner.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\local_device.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\memory_types.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\optimization_registry.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\parallel_concat_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\process_function_library_runtime.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\process_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\renamed_device.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\rendezvous_mgr.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\resource_variable_read_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_factory.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_options.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\session_state.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\shape_refiner.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\simple_graph_execution_state.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\simple_placer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\stats_publisher_interface.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\step_stats_collector.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\threadpool_device.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\common_runtime\threadpool_device_factory.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\common_runtime\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocation_description.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocation_description.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\allocator_registry.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\attr_value_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\bfloat16.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cancellation.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\common_shape_fns.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cost_graph.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\cost_graph.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_attributes.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_attributes.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\device_base.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\fake_input.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\function.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_def_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_transfer_info.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\graph_transfer_info.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\kernel_def_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\load_library.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\log_memory.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\lookup_interface.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\memory_types.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\node_def_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_def_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_kernel.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\op_segment.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\reader_base.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\reader_base.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\remote_fused_graph_execute_info.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\remote_fused_graph_execute_info.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\rendezvous.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_handle.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\resource_mgr.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\shape_inference.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\step_stats.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\step_stats.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\summary.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\summary.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_description.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_description.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_reference.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_shape.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_slice.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tensor_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\tracking_allocator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\types.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\unique_tensor_references.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variable.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variant.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\variant_tensor_data.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\framework\versions.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\framework\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\framework\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\algorithm.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\colors.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\control_flow.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\costmodel.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\edgeset.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\gradients.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_constructor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_def_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\graph_partition.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\mkl_layout_pass.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\mkl_tfconversion_pass.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\node_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\optimizer_cse.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\quantize_training.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\subgraph.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\tensor_id.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\graph\validate.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\graph\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\graph\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\devices.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\grappler_item.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\grappler_item_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\op_types.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\avgpooling_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\bias_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_bfloat.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_bool.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_complex128.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_complex64.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_double.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_float.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_half.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int16.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int32.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int64.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_int8.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_uint16.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cast_op_impl_uint8.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\concat_lib_cpu.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\concat_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\constant_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\conv_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\conv_ops_using_gemm.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_add_1.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_div.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_floor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_mul_1.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_rsqrt.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_op_sub.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\cwise_ops_common.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\deep_conv2d.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\depthwise_conv_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\fifo_queue.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\fill_functor.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\function_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\identity_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\lrn_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\matmul_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\maxpooling_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\no_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\ops_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\pack_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\padding_fifo_queue.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\padding_fifo_queue_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\pooling_ops_common.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\queue_base.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\queue_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\random_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\relu_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\reshape_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\resize_bilinear_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\shape_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\softmax_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\split_lib_cpu.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\split_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_0.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_1.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_2.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_3.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_4.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_5.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_6.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\kernels\strided_slice_op_inst_7.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\kernels\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\array_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\data_flow_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\function_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\functional_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\image_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\math_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\nn_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\no_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\ops\random_ops.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\ops\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\ops\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\cpu_info.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\denormal.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\env.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\env_time.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\file_system.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\protobuf_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\setround.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\tensor_coding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\tracing.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\variant_coding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\cluster.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\cluster.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\config.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\config.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\debug.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\debug.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\device_properties.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\named_tensor.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\queue_runner.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\rewriter_config.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\rewriter_config.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\saver.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\saver.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensor_bundle.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensor_bundle.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\protobuf\tensorflow_server.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\protobuf\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\bcast.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\command_line_flags.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\cuda_kernel_helper_test.cu.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\device_name_utils.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\env_var.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\equal_graph_def.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\event.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\guarded_philox_random.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\matmul_autotune.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\memmapped_file_system_writer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\mirror_pad_mode.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\padding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\port.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\reporter.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\saved_tensor_slice_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\stat_summarizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\strided_slice_op.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_format.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_reader.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_reader_cache.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_set.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_slice_writer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\test_log.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\use_cudnn.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\work_sharder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\cluster.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\utils.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\clusters\virtual_cluster.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\clusters\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\analytical_cost_estimator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\graph_memory.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\graph_properties.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\measuring_cost_estimator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\op_level_cost_estimator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\op_performance_data.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\robust_stats.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\utils.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\virtual_placer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\costs\virtual_scheduler.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\costs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\inputs\utils.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\inputs\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\inputs\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\auto_parallel.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\constant_folding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\graph_rewriter.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\layout_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\memory_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\meta_optimizer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\model_pruner.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\optimizers\static_schedule.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\optimizers\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils\scc.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\utils\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\utils\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\grappler\utils\topological_sort.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\grappler\utils\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\grappler\utils\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\arena.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\bitmap.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\coding.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\error_codes.pb.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\error_codes.pb_text.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\status.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\stringpiece.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\core\threadpool.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\core\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\crc32c.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\crc32c_accelerate.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\hash\hash.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\hash\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\histogram\histogram.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\histogram\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\histogram\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\block.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\block_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\buffered_inputstream.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\compression.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\format.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\inputbuffer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\inputstream_interface.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\iterator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\path.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\random_inputstream.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\table.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\table_builder.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\io\two_level_iterator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\io\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\monitoring\collection_registry.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\monitoring\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\monitoring\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\distribution_sampler.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\random.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\simple_philox.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\random\weighted_picker.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\random\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\base64.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\numbers.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\ordered_code.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\proto_text_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\scanner.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\str_util.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\strcat.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\strings\stringprintf.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\strings\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\lib\wav\wav_io.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\lib\wav\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\lib\wav\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\gpu_tracer.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\logging.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\protobuf.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\default\tracing.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\default\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\posix\error.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\posix\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\posix\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\env.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\env_time.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\error.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\port.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\platform\windows\windows_file_system.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\platform\windows\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\ctc\ctc_loss_calculator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\ctc\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\ctc\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\sparse\group_iterator.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\sparse\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\sparse\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_bundle\naming.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\tensor_bundle\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\tensor_bundle\</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\aismart\external\tensorflow\tensorflow\core\util\tensor_bundle\tensor_bundle.cc">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)core\util\tensor_bundle\</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)core\util\tensor_bundle\</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD353D88-96A7-4BDD-BFAF-E131643AED60}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>tensorflow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;EIGEN_AVOID_STL_ARRAY;NOMINMAX;_WIN32_WINNT=0x0A00;LANG_CXX11;COMPILER_MSVC;OS_WIN;WIN64;WIN32_LEAN_AND_MEAN;PLATFORM_WINDOWS;TENSORFLOW_USE_EIGEN_THREADPOOL;EIGEN_HAS_C99_MATH;TF_COMPILE_LIBRARY;EIGEN_DEFAULT_DENSE_INDEX_TYPE=__int64;TF_LEAN_BINARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../aismart/external/tensorflow;../../../../aismart/external/tensorflow/tensorflow/contrib/makefile/downloads/eigen;../../../../aismart/external/protobuf/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4800;4503;4554;4996;4348;4018;4099;4146;4267;4305;4307;4715;4722;4723;4838;4309;4334;4003;4244;4267;4503;4506;4800;4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>../../../../linker/windows/lib/protobuf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).lib ..\..\..\..\linker\windows\lib\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;EIGEN_AVOID_STL_ARRAY;NOMINMAX;_WIN32_WINNT=0x0A00;LANG_CXX11;COMPILER_MSVC;OS_WIN;WIN64;WIN32_LEAN_AND_MEAN;PLATFORM_WINDOWS;TENSORFLOW_USE_EIGEN_THREADPOOL;EIGEN_HAS_C99_MATH;TF_COMPILE_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../aismart/external/tensorflow;../../../../aismart/external/tensorflow/tensorflow/contrib/makefile/downloads/eigen;../../../../aismart/external/protobuf/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4800;4503;4554;4996;4348;4018;4099;4146;4267;4305;4307;4715;4722;4723;4838;4309;4334;4003;4244;4267;4503;4506;4800;4996</DisableSpecificWarnings>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).lib ..\..\..\..\linker\windows\lib\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;EIGEN_AVOID_STL_ARRAY;NOMINMAX;_WIN32_WINNT=0x0A00;LANG_CXX11;COMPILER_MSVC;OS_WIN;WIN64;WIN32_LEAN_AND_MEAN;PLATFORM_WINDOWS;TENSORFLOW_USE_EIGEN_THREADPOOL;EIGEN_HAS_C99_MATH;TF_COMPILE_LIBRARY;EIGEN_DEFAULT_DENSE_INDEX_TYPE=__int64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../aismart/external/tensorflow;../../../../aismart/external/tensorflow/tensorflow/contrib/makefile/downloads/eigen;../../../../aismart/external/protobuf/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4800;4503;4554;4996;4348;4018;4099;4146;4267;4305;4307;4715;4722;4723;4838;4309;4334;4003;4244;4267;4503;4506;4800;4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>../../../../linker/windows/lib/protobuf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).lib ..\..\..\..\linker\windows\lib\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_WINDOWS;EIGEN_AVOID_STL_ARRAY;NOMINMAX;_WIN32_WINNT=0x0A00;LANG_CXX11;COMPILER_MSVC;OS_WIN;WIN64;WIN32_LEAN_AND_MEAN;PLATFORM_WINDOWS;TENSORFLOW_USE_EIGEN_THREADPOOL;EIGEN_HAS_C99_MATH;TF_COMPILE_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../../aismart/external/tensorflow;../../../../aismart/external/tensorflow/tensorflow/contrib/makefile/downloads/eigen;../../../../aismart/external/protobuf/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4267;4244;4800;4503;4554;4996;4348;4018;4099;4146;4267;4305;4307;4715;4722;4723;4838;4309;4334;4003;4244;4267;4503;4506;4800;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>../../../../linker/windows/lib/protobuf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(TargetDir)$(TargetName).lib ..\..\..\..\linker\windows\lib\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

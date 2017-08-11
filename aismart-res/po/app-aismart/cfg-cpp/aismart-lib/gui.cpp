@@ -1,0 +1,1 @@
+_("Just prototype. The next version will continue to improve. Click the 'OCR' button to start OCR.");
